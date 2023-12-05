@@ -1,0 +1,529 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+}
+
+.btn {
+    padding: 0;
+}
+
+button {
+    border: #323232 solid 0px;
+    cursor: pointer;
+    background-color: none;
+}
+
+input:checked {
+    width: 30px;
+    height: 20px;
+}
+
+input::-ms-clear {
+    display: none;
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+a,
+a:visited {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.btn1 {
+    max-width: 100px;
+}
+
+.number {
+    background-color: #FCF48F;
+    padding: 30px;
+}
+
+.burger-menu {
+    text-align: center;
+    max-width: 100px;
+    padding: 10px;
+    position: fixed;
+    right: 20px;
+    display: none
+}
+
+.header {
+    justify-content: space-around;
+    margin-bottom: 92px;
+    display: flex;
+    background: url(./img/fon1.png) center/cover no-repeat;
+    padding: 30px 50px;
+}
+
+p {
+    margin: 0;
+}
+
+#strelka {
+    color: white;
+    width: 40px;
+    border: white 1px solid;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 100px;
+}
+
+#logo {
+    margin-top: 72px;
+    margin-bottom: 67px;
+}
+
+.text {
+    max-width: 550px;
+    color: #FFF;
+
+    font-family: Roboto;
+    font-size: 67px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 113.188%;
+    margin-bottom: 115px;
+}
+
+.main-cards {
+    max-width: 1400px;
+}
+
+.main-card {
+    text-align: center;
+    margin: 5px;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 126.188%;
+    flex-direction: column;
+    display: flex;
+    padding: 43px 47px;
+    display: flex;
+    background: rgba(39, 39, 39, 0.81);
+
+}
+
+.main-card2 {
+    text-align: center;
+    color: #000;
+    font-family: Roboto;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 126.188%;
+    background-color: #FCF48F;
+}
+
+.cards {
+    align-items: center;
+    margin-bottom: 92px;
+    display: flex;
+    flex-direction: column;
+}
+
+.text-center {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+#usl {
+    color: #000;
+    font-family: Roboto;
+    font-size: 67px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 113.188%;
+    margin-bottom: 137px;
+}
+
+.cards-card {
+
+    max-width: 600px;
+    min-width: 600px;
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    font-family: Roboto;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 113.188%;
+    display: flex;
+    padding: 50px 24px 24px 24px;
+    background-color: #000;
+}
+
+.c1 {
+    background-color: #272727;
+}
+
+.c2 {
+    background-color: #353535;
+}
+
+.c3 {
+    color: #000;
+    background-color: #FCF48F;
+}
+
+.c4 {
+    background-color: #525151;
+}
+
+.c5 {
+    background-color: #5B5B5B;
+}
+
+.c6 {
+    background-color: #424242;
+}
+
+#img {
+    max-width: 100px;
+    margin-top: 50px;
+}
+
+#Modal {}
+
+#ModalLabel {
+    color: #000;
+    font-family: Roboto;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 113.188%;
+}
+
+.modal-body {
+    color: #000;
+
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 113.188%;
+}
+
+.form {
+    display: flex;
+    background-color: #272727;
+    margin-bottom: 91px;
+}
+
+.form-control {
+    background-color: #272727;
+    border-radius: 0px;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 126.188%;
+    padding: 32px;
+}
+
+.btn-secondary {
+    background-color: #FCF48F;
+    border-radius: 0px;
+    color: #000;
+
+    font-family: Roboto;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 126.188%;
+    padding: 28px;
+}
+
+.m-form {
+    display: flex;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    padding: 88px 102px;
+}
+
+.form-check {
+    color: #949494;
+
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 126.188%;
+    margin-left: 50px;
+}
+
+#form-text {
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 113.188%;
+    margin-bottom: 47px;
+    max-width: 430px;
+}
+
+.form-el {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 126.188%;
+    background-color: #272727;
+    border-radius: 0px;
+}
+
+.slider {
+    padding: 0;
+}
+
+#slider-text {
+    color: #000;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 67px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 113.188%;
+}
+
+.carousel {
+    justify-content: space-around;
+    max-width: 1000px;
+    margin-bottom: 91px;
+}
+
+#carousel-item-text {
+    color: #FFF;
+    background: rgba(39, 39, 39, 0.81);
+    padding: 20px;
+    font-family: Roboto;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 126.188%;
+}
+
+.footer {
+    background-color: #1F1F1F;
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+}
+
+.footer-col {
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 113.188%;
+}
+
+.accordion-item {
+    color: #FFF;
+    background-color: #1F1F1F;
+}
+
+.accordion-button {
+    background-color: #1F1F1F;
+    color: #FFF;
+}
+
+.col {
+    margin-right: 30px;
+}
+
+@media (max-width: 991px) {
+    .burger-menu {
+        display: flex
+    }
+}
+
+@media (max-width: 870px) {
+    #img {
+        min-width: 100px;
+    }
+
+    .col.footer-col {
+        text-align: center;
+    }
+
+}
+
+@media (max-width: 746px) {
+    .main-card {
+        margin-right: 0px;
+
+    }
+
+    .col {
+        margin: 0px;
+    }
+
+    #img {
+        margin-top: 5px;
+    }
+
+
+
+}
+
+@media (max-width: 620px) {
+    .cards-card {
+        max-width: 200px;
+        min-width: 300px;
+        font-size: 24px;
+    }
+
+    .main-card.col {
+        max-width: 310px;
+        text-align: center;
+        font-size: large;
+        padding: 20px;
+    }
+
+    .main-card2 {
+        text-align: center;
+        max-width: 310px;
+        padding: 20px;
+    }
+
+    .burger-menu {
+        text-align: center;
+        max-width: 100px;
+        position: fixed;
+        right: 20px;
+        display: flex
+    }
+}
+
+@media (max-width: 480px) {
+    .main {
+        max-width: 320px;
+    }
+
+    .text {
+        margin-bottom: 30px;
+        text-align: center;
+        font-size: 50px;
+    }
+
+    .m-form {
+        padding: 10px;
+    }
+
+    #logo {
+        max-width: 200px;
+        margin-top: 30px;
+        margin-left: 20px;
+    }
+
+    #logo2 {
+        max-width: 200px;
+    }
+
+    .header {
+        padding: 0px;
+    }
+
+    .col-6 {
+        width: 100%;
+    }
+
+    .cards {
+        padding: 0px;
+    }
+
+    .main-card.col {
+
+        max-width: 300px;
+    }
+
+    .footer-col {
+        margin-top: 15px;
+    }
+
+    #usl {
+        margin-bottom: 20px;
+    }
+
+    #form-text {
+        margin-top: 20px;
+        font-size: 40px;
+    }
+
+    .main-cards {
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 350px) {
+    .text {
+        font-size: 40px;
+    }
+
+    #usl {
+        font-size: 58px;
+    }
+
+    .main-cards {
+        margin-left: 10px;
+        justify-content: center;
+        max-width: 300px;
+    }
+
+    .main-card.col {
+        margin: 5px;
+        font-size: x-small;
+        width: 50%;
+        padding: 10px;
+        margin: 0;
+    }
+
+    .main-card2 {
+        font-size: medium;
+        padding: 15px;
+        width: 50%;
+    }
+
+    .text-center {
+        max-width: 250px;
+    }
+
+    .footer-col {
+        font-size: medium;
+    }
+
+    .burger-menu {
+        text-align: center;
+        max-width: 50px;
+        position: fixed;
+        right: 30px;
+        display: flex
+    }
+}
